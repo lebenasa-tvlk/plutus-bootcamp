@@ -9,11 +9,11 @@ Make a web app to store and manage links to internal content and documentations.
 
 ## Tasks
 Feel free to mark these tasks as done on your branch/fork:
-[ ] Health check endpoint `/healthcheck`
-[ ] RESTful API to add/update/remove links to internal content and docs
-[ ] Setup a Postgres DB in Docker (see example on [mf-collection-service](https://github.com/traveloka/mf-collection-service))
-[ ] Build DB schema with `sqitch`
-[ ] Generate ORM with `jooq`
+- [ ] Health check endpoint `/healthcheck`
+- [ ] RESTful API to add/update/remove links to internal content and docs
+- [ ] Setup a Postgres DB in Docker (see example on [mf-collection-service](https://github.com/traveloka/mf-collection-service))
+- [ ] Build DB schema with `sqitch`
+- [ ] Generate ORM with `jooq`
 
 ### Extra miles
 - Cache response with `redis` and cachebust on an update
