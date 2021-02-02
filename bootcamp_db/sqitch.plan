@@ -2,3 +2,4 @@
 %project=bootcamp_db
 %uri=https://github.com/sqitchers/sqitch-intro/
 
+appschema 2021-02-02T08:24:01Z Plutus Dev <plutus.engineer@traveloka.com> # Add schema for the bootcamp
