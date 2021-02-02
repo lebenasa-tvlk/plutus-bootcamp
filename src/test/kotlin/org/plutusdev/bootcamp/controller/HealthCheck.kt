@@ -11,6 +11,7 @@ import org.springframework.http.MediaType
 import org.springframework.test.web.servlet.MockMvc
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get
 
+// SpringBootTest because this test runs an actual server.
 @SpringBootTest
 class SmokeTest(@Autowired val controller: HealthCheck) {
     @Test
@@ -19,6 +20,7 @@ class SmokeTest(@Autowired val controller: HealthCheck) {
     }
 }
 
+// WebMvcTest because this test only tests the MVC layer.
 @WebMvcTest(controllers = [HealthCheck::class])
 class ControllerTest(@Autowired val mockMvc: MockMvc) {
     @Test
