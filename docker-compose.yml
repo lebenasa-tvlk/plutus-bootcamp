@@ -9,3 +9,9 @@ services:
     environment:
       POSTGRES_USER: root
       POSTGRES_PASSWORD: root
+
+  swagger:
+    container_name: swagger-editor
+    image: swaggerapi/swagger-editor:latest
+    ports:
+      - 8080:8080
