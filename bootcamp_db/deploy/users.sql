@@ -10,5 +10,6 @@ CREATE TABLE bootcamp.users (
     access_token        TEXT                            NOT NULL,
     expired_on          TIMESTAMP WITH TIME ZONE        NOT NULL        DEFAULT CURRENT_TIMESTAMP
 );
+GRANT USAGE ON SEQUENCE bootcamp.users_id_seq  TO plutus_dev;
 
 COMMIT;

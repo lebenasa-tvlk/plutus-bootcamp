@@ -13,5 +13,6 @@ CREATE TABLE bootcamp.links (
     updated_by      INTEGER,
     updated_on      TIMESTAMP WITH TIME ZONE
 );
+GRANT USAGE ON SEQUENCE bootcamp.links_id_seq  TO plutus_dev;
 
 COMMIT;
