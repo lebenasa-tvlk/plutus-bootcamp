@@ -1,0 +1,17 @@
+version: "3.7"
+
+services:
+  db:
+    container_name: postgresdb
+    image: postgres:9.6-alpine
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: root
+
+  swagger:
+    container_name: swagger-editor
+    image: swaggerapi/swagger-editor:latest
+    ports:
+      - 8080:8080

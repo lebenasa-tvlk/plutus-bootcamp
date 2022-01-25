@@ -1,0 +1,8 @@
+%syntax-version=1.0.0
+%project=bootcamp_db
+%uri=https://github.com/sqitchers/sqitch-intro/
+
+appschema 2021-02-02T08:24:01Z Plutus Dev <plutus.engineer@traveloka.com> # Add schema for the bootcamp
+links [appschema] 2021-02-02T10:35:33Z Plutus Dev <plutus.engineer@traveloka.com> # Create table to store links to documentation and content
+users [appschema] 2021-02-02T10:49:23Z Plutus Dev <plutus.engineer@traveloka.com> # Create table to store user ID and name
+refer_users_to_links [users links] 2021-02-02T11:12:20Z Plutus Dev <plutus.engineer@traveloka.com> # Create table to store user ID and name

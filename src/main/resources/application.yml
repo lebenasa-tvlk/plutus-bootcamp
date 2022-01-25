@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: "bootcamp"
+  datasource:
+    url: "jdbc:postgresql://localhost:5432/bootcamp_db"
+    driver-class: "org.postgresql.Driver"
+    username: "plutus_dev"
+    password: "plutus_dev"
+server:
+  port: 9000
+
+
